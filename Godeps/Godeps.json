@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/cloudfoundry-samples/test-app",
-	"GoVersion": "go1.11",
+	"GoVersion": "go1.21",
 	"Deps": [
 		{
 			"ImportPath": "github.com/bmizerany/pat",
