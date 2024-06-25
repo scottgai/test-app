@@ -48,7 +48,7 @@ func main() {
 	index, err := helpers.FetchIndex()
 	appName := fetchAppName()
 	go func() {
-		t := time.NewTicker(time.Second)
+		t := time.NewTicker(600 * time.Second)
 		for {
 			<-t.C
 			if err != nil {
